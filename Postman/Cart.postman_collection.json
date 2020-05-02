@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "f17d0dbd-4733-4acb-95c8-7067432c00b1",
+		"name": "Cart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44397/api/Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44397/api/Cart",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Cart"
+					]
+				},
+				"description": "Get"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Cart",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"productId\": 3,\n        \"userId\": 2,\n        \"quantity\": 4\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Cart",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Cart"
+					]
+				},
+				"description": "create"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Cart",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    { \n    \t\"cartId\":3,\n        \"productId\": 3,\n        \"userId\": 2,\n        \"quantity\": 5\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Cart/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Cart",
+						"3"
+					]
+				},
+				"description": "Update"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Comment",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Cart/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Cart",
+						"3"
+					]
+				},
+				"description": "delete"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "2c7d89e0-09b5-4a46-8b71-be30ae041f90",
+		"name": "Comment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44397/api/Comment",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Comment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Comment"
+					]
+				},
+				"description": "get (Read)"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Comment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "   {    \n   \t    \"productId\": 3,\n        \"userId\": 2,\n        \"rating\": 6,\n        \"image\": \"www.oneplus.com/10.jpg\",\n        \"description\": \"I like this Mobile\"\n   }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Comment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Comment"
+					]
+				},
+				"description": "create"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Comment",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "   {   \n   \t    \"commentId\":3,\n   \t    \"productId\": 3,\n        \"userId\": 2,\n        \"rating\": 6,\n        \"image\": \"www.oneplus.com/10.jpg\",\n        \"description\": \"I like this Oneplus Mobile\"\n   }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Comment/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Comment",
+						"3"
+					]
+				},
+				"description": "Update"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Comment",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "   {   \n   \t    \"commentId\":3\n\n   }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Comment/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Comment",
+						"3"
+					]
+				},
+				"description": "delete"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,13 @@
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\bin\Debug\netcoreapp2.1\eCommerceNet.deps.json
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\bin\Debug\netcoreapp2.1\eCommerceNet.runtimeconfig.json
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\bin\Debug\netcoreapp2.1\eCommerceNet.runtimeconfig.dev.json
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\bin\Debug\netcoreapp2.1\eCommerceNet.dll
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\bin\Debug\netcoreapp2.1\eCommerceNet.pdb
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.csproj.CoreCompileInputs.cache
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.RazorAssemblyInfo.cache
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.RazorAssemblyInfo.cs
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.AssemblyInfoInputs.cache
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.AssemblyInfo.cs
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.RazorTargetAssemblyInfo.cache
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.dll
+C:\Users\kharo\source\repos\eCommerceNet\eCommerceNet\obj\Debug\netcoreapp2.1\eCommerceNet.pdb

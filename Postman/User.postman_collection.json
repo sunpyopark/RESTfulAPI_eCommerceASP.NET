@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "42657faa-475e-499a-822b-0ef24ea50809",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44397/api/User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"email\": \"SunPyoPark@gmail.com\",\n        \"password\": \"12QYGEvv456\",\n        \"shipping_Address\": \"South Korea\",\n        \"billing_Address\": \"Canada\",\n        \"purchase_History\": \"Huawei\"\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/User",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44397/api/User",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"User"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 3,\n    \"email\": \"SunPyoPark@gmail.com\",\n    \"password\": \"12QYGEvv456\",\n    \"shipping_Address\": \"South Korea\",\n    \"billing_Address\": \"Canada\",\n    \"purchase_History\": \"Huawei Matebook\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/User/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"User",
+						"3"
+					]
+				},
+				"description": "update"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/User",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/User/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"User",
+						"3"
+					]
+				},
+				"description": "delete"
+			},
+			"response": []
+		}
+	]
+}

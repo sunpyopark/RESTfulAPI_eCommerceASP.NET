@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "ef207a13-7e17-4b2a-865d-de43f319bb6d",
+		"name": "Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44397/api/Products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"name\": \"SamsungS8\",\n        \"image\": \"www.samsung.com/samsungs9.jpg\",\n        \"detail\": \"It is new Samsung S8\",\n        \"price\": 800,\n        \"shipping_Cost\": 30\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Products"
+					]
+				},
+				"description": "GET"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Products",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"productId\": 3,\n        \"name\": \"SamsungS8\",\n        \"image\": \"www.samsung.com/samsungs9.jpg\",\n        \"detail\": \"It is new Samsung S8\",\n        \"price\": 810,\n        \"shipping_Cost\": 30\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Products/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Products",
+						"3"
+					]
+				},
+				"description": "Update"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44397/api/Products",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"productId\": 3,\n        \"name\": \"SamsungS8\",\n        \"image\": \"www.samsung.com/samsungs9.jpg\",\n        \"detail\": \"It is new Samsung S8\",\n        \"price\": 810,\n        \"shipping_Cost\": 30\n    }"
+				},
+				"url": {
+					"raw": "https://localhost:44397/api/Products/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44397",
+					"path": [
+						"api",
+						"Products",
+						"3"
+					]
+				},
+				"description": "Delete"
+			},
+			"response": []
+		}
+	]
+}
